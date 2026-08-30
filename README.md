@@ -84,10 +84,9 @@ python -m venv venv
 
 ## 📊 Sample Output
 
-| Category | Sentiment | Urgency | Key Issue Summary | Suggested Action |
-| :--- | :--- | :--- | :--- | :--- |
-| `Delivery Issue` | **Negative** | `High` | Order delayed by 90 mins; rider unreachable | Contact rider & process refund/compensation |
-| `Payment/Billing` | **Negative** | `High` | Double deduction for failed order #49281 | Verify gateway log & initiate ₹650 refund |
-| `Positive Experience` | **Positive** | `Low` | Praised packaging, food quality, and temperature | Forward appreciation to restaurant partner |
-| `App Bug` | **Negative** | `Medium` | Mobile app crashed repeatedly on coupon apply | Escalate bug report to mobile engineering |
+Category,Sentiment,Urgency,Key Issue Summary,Suggested Action
+Delivery Issue,Negative,High,Order delayed 90 mins; rider unreachable,Contact rider & process refund
+Payment/Billing,Negative,High,Double deduction for failed order #49281,Verify gateway log & refund ₹650
+Positive Experience,Positive,Low,"Praised packaging, food quality & temp",Forward appreciation to partner
+App Bug,Negative,Medium,App crashed on coupon application,Escalate bug report to engineering
 
